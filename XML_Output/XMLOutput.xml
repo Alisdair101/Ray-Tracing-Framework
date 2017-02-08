@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SolarSystem>
+  <ApplicationProperties>
+    <appLength>10</appLength>
+    <appFrameRate>60</appFrameRate>
+    <appResolutionX>1920</appResolutionX>
+    <appResolutionY>1080</appResolutionY>
+    <appResolutionCommand>1920x1080</appResolutionCommand>
+    <appOutputDirectory>../Release/Release_Application_Output/</appOutputDirectory>
+  </ApplicationProperties>
+  <Spheres>
+    <sphereProp>
+      <name>Sun</name>
+      <positionX>450</positionX>
+      <positionY>300</positionY>
+      <colourX>255</colourX>
+      <colourY>255</colourY>
+      <colourZ>0</colourZ>
+      <radius>150</radius>
+      <rotationSpeed>11</rotationSpeed>
+      <rootSphere>true</rootSphere>
+    </sphereProp>
+    <sphereProp>
+      <name>Earth</name>
+      <positionX>250</positionX>
+      <positionY>300</positionY>
+      <colourX>0</colourX>
+      <colourY>255</colourY>
+      <colourZ>0</colourZ>
+      <radius>100</radius>
+      <rotationSpeed>10</rotationSpeed>
+      <rootSphere>false</rootSphere>
+      <parent>Sun</parent>
+    </sphereProp>
+    <sphereProp>
+      <name>Moon 1</name>
+      <positionX>300</positionX>
+      <positionY>475</positionY>
+      <colourX>118</colourX>
+      <colourY>119</colourY>
+      <colourZ>255</colourZ>
+      <radius>22</radius>
+      <rotationSpeed>40</rotationSpeed>
+      <rootSphere>false</rootSphere>
+      <parent>Earth</parent>
+    </sphereProp>
+    <sphereProp>
+      <name>Moon 2</name>
+      <positionX>340</positionX>
+      <positionY>240</positionY>
+      <colourX>128</colourX>
+      <colourY>255</colourY>
+      <colourZ>134</colourZ>
+      <radius>14</radius>
+      <rotationSpeed>100</rotationSpeed>
+      <rootSphere>false</rootSphere>
+      <parent>Moon 3</parent>
+    </sphereProp>
+    <sphereProp>
+      <name>Moon 3</name>
+      <positionX>375</positionX>
+      <positionY>240</positionY>
+      <colourX>255</colourX>
+      <colourY>109</colourY>
+      <colourZ>108</colourZ>
+      <radius>16</radius>
+      <rotationSpeed>45</rotationSpeed>
+      <rootSphere>false</rootSphere>
+      <parent>Earth</parent>
+    </sphereProp>
+    <sphereProp>
+      <name>Uranus</name>
+      <positionX>700</positionX>
+      <positionY>700</positionY>
+      <colourX>100</colourX>
+      <colourY>81</colourY>
+      <colourZ>0</colourZ>
+      <radius>100</radius>
+      <rotationSpeed>50</rotationSpeed>
+      <rootSphere>false</rootSphere>
+      <parent>Sun</parent>
+    </sphereProp>
+    <sphereProp>
+      <name>Moon 4</name>
+      <positionX>670</positionX>
+      <positionY>740</positionY>
+      <colourX>117</colourX>
+      <colourY>122</colourY>
+      <colourZ>118</colourZ>
+      <radius>26</radius>
+      <rotationSpeed>100</rotationSpeed>
+      <rootSphere>false</rootSphere>
+      <parent>Uranus</parent>
+    </sphereProp>
+    <sphereProp>
+      <name>Moon 5</name>
+      <positionX>300</positionX>
+      <positionY>400</positionY>
+      <colourX>120</colourX>
+      <colourY>122</colourY>
+      <colourZ>122</colourZ>
+      <radius>24</radius>
+      <rotationSpeed>100</rotationSpeed>
+      <rootSphere>false</rootSphere>
+      <parent>Moon 1</parent>
+    </sphereProp>
+  </Spheres>
+</SolarSystem>

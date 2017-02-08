@@ -1,0 +1,40 @@
+﻿Build started 18/01/2017 11:07:14.
+     1>Project "E:\University\Low-Level Game Programming\Ray Tracing\RayTracer\RayTracerFramework Op\RayTracerFramework\RayTracerSmall\RayTracerSmall.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp SphereObj.cpp ThreadManager.cpp tinyxml2.cpp
+         main.cpp
+     1>main.cpp(53): warning C4005: 'INFINITY' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102) : see previous definition of 'INFINITY'
+     1>main.cpp(120): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>main.cpp(134): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>main.cpp(145): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>main.cpp(190): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(191): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(252): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(324): warning C4101: 'parentSphere' : unreferenced local variable
+     1>main.cpp(321): warning C4101: 'reflection' : unreferenced local variable
+     1>main.cpp(322): warning C4101: 'rotationSpeed' : unreferenced local variable
+     1>main.cpp(319): warning C4101: 'radius' : unreferenced local variable
+     1>main.cpp(319): warning C4101: 'radius2' : unreferenced local variable
+     1>main.cpp(321): warning C4101: 'transparency' : unreferenced local variable
+     1>main.cpp(440): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>main.cpp(579): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(86) : see declaration of 'ctime'
+     1>main.cpp(598): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(86) : see declaration of 'ctime'
+         SphereObj.cpp
+         ThreadManager.cpp
+         tinyxml2.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\University\Low-Level Game Programming\Ray Tracing\RayTracer\RayTracerFramework Op\RayTracerFramework\x64\Release\RayTracerSmall.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\University\Low-Level Game Programming\Ray Tracing\RayTracer\RayTracerFramework Op\RayTracerFramework\x64\Release\RayTracerSmall.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\University\Low-Level Game Programming\Ray Tracing\RayTracer\RayTracerFramework Op\RayTracerFramework\x64\Release\RayTracerSmall.lib" /MACHINE:X64 x64\Release\main.obj
+         x64\Release\SphereObj.obj
+         x64\Release\ThreadManager.obj
+         x64\Release\tinyxml2.obj
+         Generating code
+         Finished generating code
+         RayTracerSmall.vcxproj -> E:\University\Low-Level Game Programming\Ray Tracing\RayTracer\RayTracerFramework Op\RayTracerFramework\x64\Release\RayTracerSmall.exe
+     1>Done Building Project "E:\University\Low-Level Game Programming\Ray Tracing\RayTracer\RayTracerFramework Op\RayTracerFramework\RayTracerSmall\RayTracerSmall.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.13

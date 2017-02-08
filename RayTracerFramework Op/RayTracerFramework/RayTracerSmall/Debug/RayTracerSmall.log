@@ -1,0 +1,22 @@
+﻿  main.cpp
+f:\university\low-level game programming\ray tracing\raytracer\raytracerframework op\raytracerframework\raytracersmall\main.cpp(53): warning C4005: 'INFINITY': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(78): note: see previous definition of 'INFINITY'
+f:\university\low-level game programming\ray tracing\raytracer\raytracerframework op\raytracerframework\raytracersmall\main.cpp(119): warning C4305: 'initializing': truncation from 'double' to 'float'
+f:\university\low-level game programming\ray tracing\raytracer\raytracerframework op\raytracerframework\raytracersmall\main.cpp(133): warning C4305: 'argument': truncation from 'double' to 'const float'
+f:\university\low-level game programming\ray tracing\raytracer\raytracerframework op\raytracerframework\raytracersmall\main.cpp(144): warning C4305: 'initializing': truncation from 'double' to 'float'
+f:\university\low-level game programming\ray tracing\raytracer\raytracerframework op\raytracerframework\raytracersmall\main.cpp(189): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+f:\university\low-level game programming\ray tracing\raytracer\raytracerframework op\raytracerframework\raytracersmall\main.cpp(190): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+f:\university\low-level game programming\ray tracing\raytracer\raytracerframework op\raytracerframework\raytracersmall\main.cpp(251): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+f:\university\low-level game programming\ray tracing\raytracer\raytracerframework op\raytracerframework\raytracersmall\main.cpp(318): warning C4101: 'radius': unreferenced local variable
+f:\university\low-level game programming\ray tracing\raytracer\raytracerframework op\raytracerframework\raytracersmall\main.cpp(320): warning C4101: 'transparency': unreferenced local variable
+f:\university\low-level game programming\ray tracing\raytracer\raytracerframework op\raytracerframework\raytracersmall\main.cpp(321): warning C4101: 'rotationSpeed': unreferenced local variable
+f:\university\low-level game programming\ray tracing\raytracer\raytracerframework op\raytracerframework\raytracersmall\main.cpp(323): warning C4101: 'parentSphere': unreferenced local variable
+f:\university\low-level game programming\ray tracing\raytracer\raytracerframework op\raytracerframework\raytracersmall\main.cpp(320): warning C4101: 'reflection': unreferenced local variable
+f:\university\low-level game programming\ray tracing\raytracer\raytracerframework op\raytracerframework\raytracersmall\main.cpp(318): warning C4101: 'radius2': unreferenced local variable
+f:\university\low-level game programming\ray tracing\raytracer\raytracerframework op\raytracerframework\raytracersmall\main.cpp(439): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+f:\university\low-level game programming\ray tracing\raytracer\raytracerframework op\raytracerframework\raytracersmall\main.cpp(628): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\time.h(475): note: see declaration of 'ctime'
+f:\university\low-level game programming\ray tracing\raytracer\raytracerframework op\raytracerframework\raytracersmall\main.cpp(647): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\time.h(475): note: see declaration of 'ctime'
+  RayTracerSmall.vcxproj -> F:\University\Low-Level Game Programming\Ray Tracing\RayTracer\RayTracerFramework Op\RayTracerFramework\Debug\RayTracerSmall.exe
+  RayTracerSmall.vcxproj -> F:\University\Low-Level Game Programming\Ray Tracing\RayTracer\RayTracerFramework Op\RayTracerFramework\Debug\RayTracerSmall.pdb (Full PDB)
